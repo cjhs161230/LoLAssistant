@@ -1,0 +1,1576 @@
+{
+  "Annie": {
+    "id": 1,
+    "name_cn": "安妮",
+    "search_terms": [
+      "安妮",
+      "黑暗之女",
+      "火女"
+    ]
+  },
+  "Olaf": {
+    "id": 2,
+    "name_cn": "奥拉夫",
+    "search_terms": [
+      "奥拉夫",
+      "狂战士"
+    ]
+  },
+  "Galio": {
+    "id": 3,
+    "name_cn": "加里奥",
+    "search_terms": [
+      "加里奥",
+      "正义巨像",
+      "石像鬼"
+    ]
+  },
+  "TwistedFate": {
+    "id": 4,
+    "name_cn": "崔斯特",
+    "search_terms": [
+      "崔斯特",
+      "卡牌大师",
+      "卡牌",
+      "牌"
+    ]
+  },
+  "XinZhao": {
+    "id": 5,
+    "name_cn": "赵信",
+    "search_terms": [
+      "赵信",
+      "德邦总管",
+      "菊花信",
+      "德邦"
+    ]
+  },
+  "Urgot": {
+    "id": 6,
+    "name_cn": "厄加特",
+    "search_terms": [
+      "厄加特",
+      "无畏战车",
+      "螃蟹"
+    ]
+  },
+  "Leblanc": {
+    "id": 7,
+    "name_cn": "乐芙兰",
+    "search_terms": [
+      "乐芙兰",
+      "诡术妖姬",
+      "妖姬"
+    ]
+  },
+  "Vladimir": {
+    "id": 8,
+    "name_cn": "弗拉基米尔",
+    "search_terms": [
+      "弗拉基米尔",
+      "猩红收割者",
+      "吸血鬼"
+    ]
+  },
+  "FiddleSticks": {
+    "id": 9,
+    "name_cn": "费德提克",
+    "search_terms": [
+      "费德提克",
+      "远古恐惧",
+      "稻草人"
+    ]
+  },
+  "Kayle": {
+    "id": 10,
+    "name_cn": "凯尔",
+    "search_terms": [
+      "凯尔",
+      "正义天使",
+      "天使"
+    ]
+  },
+  "MasterYi": {
+    "id": 11,
+    "name_cn": "易",
+    "search_terms": [
+      "易",
+      "无极剑圣",
+      "易大师",
+      "剑圣"
+    ]
+  },
+  "Alistar": {
+    "id": 12,
+    "name_cn": "阿利斯塔",
+    "search_terms": [
+      "阿利斯塔",
+      "牛头酋长",
+      "老牛",
+      "牛头",
+      "酋长"
+    ]
+  },
+  "Ryze": {
+    "id": 13,
+    "name_cn": "瑞兹",
+    "search_terms": [
+      "瑞兹",
+      "符文法师",
+      "光头"
+    ]
+  },
+  "Sion": {
+    "id": 14,
+    "name_cn": "赛恩",
+    "search_terms": [
+      "赛恩",
+      "亡灵勇士",
+      "亡灵战神",
+      "塞恩"
+    ]
+  },
+  "Sivir": {
+    "id": 15,
+    "name_cn": "希维尔",
+    "search_terms": [
+      "希维尔",
+      "战争女神",
+      "轮子妈"
+    ]
+  },
+  "Soraka": {
+    "id": 16,
+    "name_cn": "索拉卡",
+    "search_terms": [
+      "索拉卡",
+      "众星之子",
+      "奶妈",
+      "星妈"
+    ]
+  },
+  "Teemo": {
+    "id": 17,
+    "name_cn": "提莫",
+    "search_terms": [
+      "提莫",
+      "迅捷斥候",
+      "提百万"
+    ]
+  },
+  "Tristana": {
+    "id": 18,
+    "name_cn": "崔丝塔娜",
+    "search_terms": [
+      "崔丝塔娜",
+      "麦林炮手",
+      "小炮"
+    ]
+  },
+  "Warwick": {
+    "id": 19,
+    "name_cn": "沃里克",
+    "search_terms": [
+      "沃里克",
+      "祖安怒兽",
+      "狼人"
+    ]
+  },
+  "Nunu": {
+    "id": 20,
+    "name_cn": "努努和威朗普",
+    "search_terms": [
+      "努努和威朗普",
+      "雪原双子",
+      "雪人",
+      "努努"
+    ]
+  },
+  "MissFortune": {
+    "id": 21,
+    "name_cn": "厄运小姐",
+    "search_terms": [
+      "厄运小姐",
+      "赏金猎人",
+      "MF",
+      "女枪",
+      "赏金"
+    ]
+  },
+  "Ashe": {
+    "id": 22,
+    "name_cn": "艾希",
+    "search_terms": [
+      "艾希",
+      "寒冰射手",
+      "艾射",
+      "冰弓",
+      "爱射",
+      "寒冰"
+    ]
+  },
+  "Tryndamere": {
+    "id": 23,
+    "name_cn": "泰达米尔",
+    "search_terms": [
+      "泰达米尔",
+      "蛮族之王",
+      "蛮三刀",
+      "蛮子",
+      "蛮王"
+    ]
+  },
+  "Jax": {
+    "id": 24,
+    "name_cn": "贾克斯",
+    "search_terms": [
+      "贾克斯",
+      "武器大师",
+      "Jax",
+      "武器"
+    ]
+  },
+  "Morgana": {
+    "id": 25,
+    "name_cn": "莫甘娜",
+    "search_terms": [
+      "莫甘娜",
+      "堕落天使",
+      "MGN"
+    ]
+  },
+  "Zilean": {
+    "id": 26,
+    "name_cn": "基兰",
+    "search_terms": [
+      "基兰",
+      "时光守护者",
+      "时光老人",
+      "时光老头",
+      "时光"
+    ]
+  },
+  "Singed": {
+    "id": 27,
+    "name_cn": "辛吉德",
+    "search_terms": [
+      "辛吉德",
+      "炼金术士",
+      "炼金"
+    ]
+  },
+  "Evelynn": {
+    "id": 28,
+    "name_cn": "伊芙琳",
+    "search_terms": [
+      "伊芙琳",
+      "痛苦之拥",
+      "寡妇"
+    ]
+  },
+  "Twitch": {
+    "id": 29,
+    "name_cn": "图奇",
+    "search_terms": [
+      "图奇",
+      "瘟疫之源",
+      "老鼠"
+    ]
+  },
+  "Karthus": {
+    "id": 30,
+    "name_cn": "卡尔萨斯",
+    "search_terms": [
+      "卡尔萨斯",
+      "死亡颂唱者",
+      "死歌"
+    ]
+  },
+  "Chogath": {
+    "id": 31,
+    "name_cn": "科加斯",
+    "search_terms": [
+      "科加斯",
+      "虚空恐惧",
+      "大虫子",
+      "虫子"
+    ]
+  },
+  "Amumu": {
+    "id": 32,
+    "name_cn": "阿木木",
+    "search_terms": [
+      "阿木木",
+      "伤之木乃伊",
+      "殇之木乃伊",
+      "木乃伊",
+      "分头",
+      "木木"
+    ]
+  },
+  "Rammus": {
+    "id": 33,
+    "name_cn": "拉莫斯",
+    "search_terms": [
+      "拉莫斯",
+      "披甲龙龟",
+      "龙龟"
+    ]
+  },
+  "Anivia": {
+    "id": 34,
+    "name_cn": "艾尼维亚",
+    "search_terms": [
+      "艾尼维亚",
+      "冰晶凤凰",
+      "凤凰",
+      "冰鸟"
+    ]
+  },
+  "Shaco": {
+    "id": 35,
+    "name_cn": "萨科",
+    "search_terms": [
+      "萨科",
+      "恶魔小丑",
+      "沙扣",
+      "小丑",
+      "沙口"
+    ]
+  },
+  "DrMundo": {
+    "id": 36,
+    "name_cn": "蒙多医生",
+    "search_terms": [
+      "蒙多医生",
+      "祖安狂人",
+      "蒙多"
+    ]
+  },
+  "Sona": {
+    "id": 37,
+    "name_cn": "娑娜",
+    "search_terms": [
+      "娑娜",
+      "琴瑟仙女",
+      "琴女",
+      "索娜"
+    ]
+  },
+  "Kassadin": {
+    "id": 38,
+    "name_cn": "卡萨丁",
+    "search_terms": [
+      "卡萨丁",
+      "虚空行者"
+    ]
+  },
+  "Irelia": {
+    "id": 39,
+    "name_cn": "艾瑞莉娅",
+    "search_terms": [
+      "艾瑞莉娅",
+      "刀锋舞者",
+      "女刀锋",
+      "刀妹",
+      "女刀"
+    ]
+  },
+  "Janna": {
+    "id": 40,
+    "name_cn": "迦娜",
+    "search_terms": [
+      "迦娜",
+      "风暴之怒",
+      "风女"
+    ]
+  },
+  "Gangplank": {
+    "id": 41,
+    "name_cn": "普朗克",
+    "search_terms": [
+      "普朗克",
+      "海洋之灾",
+      "船长",
+      "GP"
+    ]
+  },
+  "Corki": {
+    "id": 42,
+    "name_cn": "库奇",
+    "search_terms": [
+      "库奇",
+      "英勇投弹手",
+      "飞机"
+    ]
+  },
+  "Karma": {
+    "id": 43,
+    "name_cn": "卡尔玛",
+    "search_terms": [
+      "卡尔玛",
+      "扇子妈",
+      "天启者"
+    ]
+  },
+  "Taric": {
+    "id": 44,
+    "name_cn": "塔里克",
+    "search_terms": [
+      "塔里克",
+      "瓦洛兰之盾",
+      "宝石"
+    ]
+  },
+  "Veigar": {
+    "id": 45,
+    "name_cn": "维迦",
+    "search_terms": [
+      "维迦",
+      "邪恶小法师",
+      "小法师",
+      "小法"
+    ]
+  },
+  "Trundle": {
+    "id": 48,
+    "name_cn": "特朗德尔",
+    "search_terms": [
+      "特朗德尔",
+      "巨魔之王",
+      "巨魔"
+    ]
+  },
+  "Swain": {
+    "id": 50,
+    "name_cn": "斯维因",
+    "search_terms": [
+      "斯维因",
+      "诺克萨斯统领",
+      "乌鸦"
+    ]
+  },
+  "Caitlyn": {
+    "id": 51,
+    "name_cn": "凯特琳",
+    "search_terms": [
+      "凯特琳",
+      "皮城女警",
+      "女警",
+      "皮城"
+    ]
+  },
+  "Blitzcrank": {
+    "id": 53,
+    "name_cn": "布里茨",
+    "search_terms": [
+      "布里茨",
+      "蒸汽机器人",
+      "机器人"
+    ]
+  },
+  "Malphite": {
+    "id": 54,
+    "name_cn": "墨菲特",
+    "search_terms": [
+      "墨菲特",
+      "熔岩巨兽",
+      "石头人"
+    ]
+  },
+  "Katarina": {
+    "id": 55,
+    "name_cn": "卡特琳娜",
+    "search_terms": [
+      "卡特琳娜",
+      "不祥之刃",
+      "不详",
+      "卡特"
+    ]
+  },
+  "Nocturne": {
+    "id": 56,
+    "name_cn": "魔腾",
+    "search_terms": [
+      "魔腾",
+      "永恒梦魇",
+      "夜曲",
+      "梦魇"
+    ]
+  },
+  "Maokai": {
+    "id": 57,
+    "name_cn": "茂凯",
+    "search_terms": [
+      "茂凯",
+      "扭曲树精",
+      "大树"
+    ]
+  },
+  "Renekton": {
+    "id": 58,
+    "name_cn": "雷克顿",
+    "search_terms": [
+      "雷克顿",
+      "荒漠屠夫",
+      "鳄鱼"
+    ]
+  },
+  "JarvanIV": {
+    "id": 59,
+    "name_cn": "嘉文四世",
+    "search_terms": [
+      "嘉文四世",
+      "德玛西亚皇子",
+      "嘉文",
+      "皇子"
+    ]
+  },
+  "Elise": {
+    "id": 60,
+    "name_cn": "伊莉丝",
+    "search_terms": [
+      "伊莉丝",
+      "蜘蛛女皇",
+      "蜘蛛"
+    ]
+  },
+  "Orianna": {
+    "id": 61,
+    "name_cn": "奥莉安娜",
+    "search_terms": [
+      "奥莉安娜",
+      "发条魔灵",
+      "发条"
+    ]
+  },
+  "MonkeyKing": {
+    "id": 62,
+    "name_cn": "孙悟空",
+    "search_terms": [
+      "孙悟空",
+      "齐天大圣",
+      "猴子"
+    ]
+  },
+  "Brand": {
+    "id": 63,
+    "name_cn": "布兰德",
+    "search_terms": [
+      "布兰德",
+      "复仇焰魂",
+      "火男"
+    ]
+  },
+  "LeeSin": {
+    "id": 64,
+    "name_cn": "李青",
+    "search_terms": [
+      "李青",
+      "瞎子",
+      "盲僧"
+    ]
+  },
+  "Vayne": {
+    "id": 67,
+    "name_cn": "薇恩",
+    "search_terms": [
+      "薇恩",
+      "暗夜猎手",
+      "VN"
+    ]
+  },
+  "Rumble": {
+    "id": 68,
+    "name_cn": "兰博",
+    "search_terms": [
+      "兰博",
+      "机械公敌"
+    ]
+  },
+  "Cassiopeia": {
+    "id": 69,
+    "name_cn": "卡西奥佩娅",
+    "search_terms": [
+      "卡西奥佩娅",
+      "魔蛇之拥",
+      "蛇女"
+    ]
+  },
+  "Skarner": {
+    "id": 72,
+    "name_cn": "斯卡纳",
+    "search_terms": [
+      "斯卡纳",
+      "水晶先锋",
+      "上古领主",
+      "蝎子"
+    ]
+  },
+  "Heimerdinger": {
+    "id": 74,
+    "name_cn": "黑默丁格",
+    "search_terms": [
+      "黑默丁格",
+      "大发明家",
+      "大头"
+    ]
+  },
+  "Nasus": {
+    "id": 75,
+    "name_cn": "内瑟斯",
+    "search_terms": [
+      "内瑟斯",
+      "沙漠死神",
+      "狗头"
+    ]
+  },
+  "Nidalee": {
+    "id": 76,
+    "name_cn": "奈德丽",
+    "search_terms": [
+      "奈德丽",
+      "狂野女猎手",
+      "豹女"
+    ]
+  },
+  "Udyr": {
+    "id": 77,
+    "name_cn": "乌迪尔",
+    "search_terms": [
+      "乌迪尔",
+      "兽灵行者",
+      "UD"
+    ]
+  },
+  "Poppy": {
+    "id": 78,
+    "name_cn": "波比",
+    "search_terms": [
+      "波比",
+      "圣锤之毅"
+    ]
+  },
+  "Gragas": {
+    "id": 79,
+    "name_cn": "古拉加斯",
+    "search_terms": [
+      "古拉加斯",
+      "肉蛋葱鸡",
+      "啤酒人",
+      "酒桶"
+    ]
+  },
+  "Pantheon": {
+    "id": 80,
+    "name_cn": "潘森",
+    "search_terms": [
+      "潘森",
+      "不屈之枪",
+      "斯巴达",
+      "PS"
+    ]
+  },
+  "Ezreal": {
+    "id": 81,
+    "name_cn": "伊泽瑞尔",
+    "search_terms": [
+      "伊泽瑞尔",
+      "探险家",
+      "EZ"
+    ]
+  },
+  "Mordekaiser": {
+    "id": 82,
+    "name_cn": "莫德凯撒",
+    "search_terms": [
+      "莫德凯撒",
+      "铁铠冥魂",
+      "铁男"
+    ]
+  },
+  "Yorick": {
+    "id": 83,
+    "name_cn": "约里克",
+    "search_terms": [
+      "约里克",
+      "掘墓人",
+      "牧魂人",
+      "掘墓"
+    ]
+  },
+  "Akali": {
+    "id": 84,
+    "name_cn": "阿卡丽",
+    "search_terms": [
+      "阿卡丽",
+      "离群之刺"
+    ]
+  },
+  "Kennen": {
+    "id": 85,
+    "name_cn": "凯南",
+    "search_terms": [
+      "凯南",
+      "狂暴之心",
+      "电耗子"
+    ]
+  },
+  "Garen": {
+    "id": 86,
+    "name_cn": "盖伦",
+    "search_terms": [
+      "盖伦",
+      "德玛西亚之力",
+      "大宝剑",
+      "德玛"
+    ]
+  },
+  "Leona": {
+    "id": 89,
+    "name_cn": "蕾欧娜",
+    "search_terms": [
+      "蕾欧娜",
+      "曙光女神",
+      "曙光",
+      "女坦",
+      "日女"
+    ]
+  },
+  "Malzahar": {
+    "id": 90,
+    "name_cn": "玛尔扎哈",
+    "search_terms": [
+      "玛尔扎哈",
+      "马尔扎哈",
+      "虚空先知",
+      "蚂蚱"
+    ]
+  },
+  "Talon": {
+    "id": 91,
+    "name_cn": "泰隆",
+    "search_terms": [
+      "泰隆",
+      "刀锋之影",
+      "男刀"
+    ]
+  },
+  "Riven": {
+    "id": 92,
+    "name_cn": "锐雯",
+    "search_terms": [
+      "锐雯",
+      "放逐之刃",
+      "瑞文"
+    ]
+  },
+  "KogMaw": {
+    "id": 96,
+    "name_cn": "克格莫",
+    "search_terms": [
+      "克格莫",
+      "深渊巨口",
+      "大嘴"
+    ]
+  },
+  "Shen": {
+    "id": 98,
+    "name_cn": "慎",
+    "search_terms": [
+      "慎",
+      "暮光之眼"
+    ]
+  },
+  "Lux": {
+    "id": 99,
+    "name_cn": "拉克丝",
+    "search_terms": [
+      "拉克丝",
+      "光辉女郎",
+      "光辉"
+    ]
+  },
+  "Xerath": {
+    "id": 101,
+    "name_cn": "泽拉斯",
+    "search_terms": [
+      "泽拉斯",
+      "远古巫灵"
+    ]
+  },
+  "Shyvana": {
+    "id": 102,
+    "name_cn": "希瓦娜",
+    "search_terms": [
+      "希瓦娜",
+      "龙血武姬",
+      "龙女"
+    ]
+  },
+  "Ahri": {
+    "id": 103,
+    "name_cn": "阿狸",
+    "search_terms": [
+      "阿狸",
+      "九尾妖狐",
+      "狐狸",
+      "九尾"
+    ]
+  },
+  "Graves": {
+    "id": 104,
+    "name_cn": "格雷福斯",
+    "search_terms": [
+      "格雷福斯",
+      "法外狂徒",
+      "男枪"
+    ]
+  },
+  "Fizz": {
+    "id": 105,
+    "name_cn": "菲兹",
+    "search_terms": [
+      "菲兹",
+      "潮汐海灵",
+      "小鱼人",
+      "鱼人"
+    ]
+  },
+  "Volibear": {
+    "id": 106,
+    "name_cn": "沃利贝尔",
+    "search_terms": [
+      "沃利贝尔",
+      "不灭狂雷",
+      "狗熊"
+    ]
+  },
+  "Rengar": {
+    "id": 107,
+    "name_cn": "雷恩加尔",
+    "search_terms": [
+      "雷恩加尔",
+      "傲之追猎者",
+      "狮子狗"
+    ]
+  },
+  "Varus": {
+    "id": 110,
+    "name_cn": "韦鲁斯",
+    "search_terms": [
+      "韦鲁斯",
+      "惩戒之箭",
+      "维鲁斯"
+    ]
+  },
+  "Nautilus": {
+    "id": 111,
+    "name_cn": "诺提勒斯",
+    "search_terms": [
+      "诺提勒斯",
+      "深海泰坦",
+      "泰坦"
+    ]
+  },
+  "Viktor": {
+    "id": 112,
+    "name_cn": "维克托",
+    "search_terms": [
+      "维克托",
+      "机械先驱",
+      "奥术先驱",
+      "三只手"
+    ]
+  },
+  "Sejuani": {
+    "id": 113,
+    "name_cn": "瑟庄妮",
+    "search_terms": [
+      "瑟庄妮",
+      "北地之怒",
+      "猪妹"
+    ]
+  },
+  "Fiora": {
+    "id": 114,
+    "name_cn": "菲奥娜",
+    "search_terms": [
+      "菲奥娜",
+      "无双剑姬",
+      "剑姬"
+    ]
+  },
+  "Ziggs": {
+    "id": 115,
+    "name_cn": "吉格斯",
+    "search_terms": [
+      "吉格斯",
+      "爆破鬼才",
+      "炸弹人"
+    ]
+  },
+  "Lulu": {
+    "id": 117,
+    "name_cn": "璐璐",
+    "search_terms": [
+      "璐璐",
+      "仙灵女巫"
+    ]
+  },
+  "Draven": {
+    "id": 119,
+    "name_cn": "德莱文",
+    "search_terms": [
+      "德莱文",
+      "荣耀行刑官"
+    ]
+  },
+  "Hecarim": {
+    "id": 120,
+    "name_cn": "赫卡里姆",
+    "search_terms": [
+      "赫卡里姆",
+      "战争之影",
+      "人马"
+    ]
+  },
+  "Khazix": {
+    "id": 121,
+    "name_cn": "卡兹克",
+    "search_terms": [
+      "卡兹克",
+      "虚空掠夺者",
+      "螳螂"
+    ]
+  },
+  "Darius": {
+    "id": 122,
+    "name_cn": "德莱厄斯",
+    "search_terms": [
+      "德莱厄斯",
+      "诺克萨斯之手",
+      "诺手"
+    ]
+  },
+  "Jayce": {
+    "id": 126,
+    "name_cn": "杰斯",
+    "search_terms": [
+      "杰斯",
+      "未来守护者"
+    ]
+  },
+  "Lissandra": {
+    "id": 127,
+    "name_cn": "丽桑卓",
+    "search_terms": [
+      "丽桑卓",
+      "冰霜女巫",
+      "冰女"
+    ]
+  },
+  "Diana": {
+    "id": 131,
+    "name_cn": "黛安娜",
+    "search_terms": [
+      "黛安娜",
+      "皎月女神",
+      "戴安娜",
+      "皎月"
+    ]
+  },
+  "Quinn": {
+    "id": 133,
+    "name_cn": "奎因",
+    "search_terms": [
+      "奎因",
+      "德玛西亚之翼",
+      "鸟人"
+    ]
+  },
+  "Syndra": {
+    "id": 134,
+    "name_cn": "辛德拉",
+    "search_terms": [
+      "辛德拉",
+      "暗黑元首",
+      "球女"
+    ]
+  },
+  "AurelionSol": {
+    "id": 136,
+    "name_cn": "奥瑞利安索尔",
+    "search_terms": [
+      "奥瑞利安索尔",
+      "铸星龙王",
+      "龙王",
+      "索尔"
+    ]
+  },
+  "Kayn": {
+    "id": 141,
+    "name_cn": "凯隐",
+    "search_terms": [
+      "凯隐",
+      "影流之镰"
+    ]
+  },
+  "Zoe": {
+    "id": 142,
+    "name_cn": "佐伊",
+    "search_terms": [
+      "佐伊",
+      "暮光星灵",
+      "Zoe"
+    ]
+  },
+  "Zyra": {
+    "id": 143,
+    "name_cn": "婕拉",
+    "search_terms": [
+      "婕拉",
+      "荆棘之兴"
+    ]
+  },
+  "Kaisa": {
+    "id": 145,
+    "name_cn": "卡莎",
+    "search_terms": [
+      "卡莎",
+      "虚空之女"
+    ]
+  },
+  "Seraphine": {
+    "id": 147,
+    "name_cn": "萨勒芬妮",
+    "search_terms": [
+      "萨勒芬妮",
+      "星籁歌姬"
+    ]
+  },
+  "Gnar": {
+    "id": 150,
+    "name_cn": "纳尔",
+    "search_terms": [
+      "纳尔",
+      "迷失之牙"
+    ]
+  },
+  "Zac": {
+    "id": 154,
+    "name_cn": "扎克",
+    "search_terms": [
+      "扎克",
+      "生化魔人",
+      "Zac",
+      "屎人"
+    ]
+  },
+  "Yasuo": {
+    "id": 157,
+    "name_cn": "亚索",
+    "search_terms": [
+      "亚索",
+      "疾风剑豪",
+      "快乐风男",
+      "托儿索",
+      "压缩",
+      "剑豪"
+    ]
+  },
+  "Velkoz": {
+    "id": 161,
+    "name_cn": "维克兹",
+    "search_terms": [
+      "维克兹",
+      "虚空之眼",
+      "大眼"
+    ]
+  },
+  "Taliyah": {
+    "id": 163,
+    "name_cn": "塔莉垭",
+    "search_terms": [
+      "塔莉垭",
+      "塔利垭",
+      "小鸟",
+      "岩雀"
+    ]
+  },
+  "Camille": {
+    "id": 164,
+    "name_cn": "卡蜜尔",
+    "search_terms": [
+      "卡蜜尔",
+      "卡密尔",
+      "青钢影",
+      "腿女"
+    ]
+  },
+  "Akshan": {
+    "id": 166,
+    "name_cn": "阿克尚",
+    "search_terms": [
+      "阿克尚",
+      "影哨",
+      "阿克",
+      "阿"
+    ]
+  },
+  "Belveth": {
+    "id": 200,
+    "name_cn": "卑尔维斯",
+    "search_terms": [
+      "卑尔维斯",
+      "虚空女皇"
+    ]
+  },
+  "Braum": {
+    "id": 201,
+    "name_cn": "布隆",
+    "search_terms": [
+      "布隆",
+      "弗雷尔卓德之心"
+    ]
+  },
+  "Jhin": {
+    "id": 202,
+    "name_cn": "烬",
+    "search_terms": [
+      "烬",
+      "戏命师"
+    ]
+  },
+  "Kindred": {
+    "id": 203,
+    "name_cn": "千珏",
+    "search_terms": [
+      "千珏",
+      "永猎双子"
+    ]
+  },
+  "Zeri": {
+    "id": 221,
+    "name_cn": "泽丽",
+    "search_terms": [
+      "泽丽",
+      "祖安花火"
+    ]
+  },
+  "Jinx": {
+    "id": 222,
+    "name_cn": "金克丝",
+    "search_terms": [
+      "金克丝",
+      "暴走萝莉",
+      "金克斯",
+      "萝莉"
+    ]
+  },
+  "TahmKench": {
+    "id": 223,
+    "name_cn": "塔姆",
+    "search_terms": [
+      "塔姆",
+      "河流之王",
+      "蛤蟆"
+    ]
+  },
+  "Briar": {
+    "id": 233,
+    "name_cn": "贝蕾亚",
+    "search_terms": [
+      "贝蕾亚",
+      "狂厄蔷薇",
+      "疯狂少女",
+      "蔷薇",
+      "狂"
+    ]
+  },
+  "Viego": {
+    "id": 234,
+    "name_cn": "佛耶戈",
+    "search_terms": [
+      "佛耶戈",
+      "破败之王",
+      "破败王",
+      "破败",
+      "佛"
+    ]
+  },
+  "Senna": {
+    "id": 235,
+    "name_cn": "赛娜",
+    "search_terms": [
+      "赛娜",
+      "涤魂圣枪",
+      "奶枪"
+    ]
+  },
+  "Lucian": {
+    "id": 236,
+    "name_cn": "卢锡安",
+    "search_terms": [
+      "卢锡安",
+      "圣枪游侠",
+      "奥巴马"
+    ]
+  },
+  "Zed": {
+    "id": 238,
+    "name_cn": "劫",
+    "search_terms": [
+      "劫",
+      "影流之主",
+      "Zed"
+    ]
+  },
+  "Kled": {
+    "id": 240,
+    "name_cn": "克烈",
+    "search_terms": [
+      "克烈",
+      "暴怒骑士"
+    ]
+  },
+  "Ekko": {
+    "id": 245,
+    "name_cn": "艾克",
+    "search_terms": [
+      "艾克",
+      "时间刺客"
+    ]
+  },
+  "Qiyana": {
+    "id": 246,
+    "name_cn": "奇亚娜",
+    "search_terms": [
+      "奇亚娜",
+      "元素女皇"
+    ]
+  },
+  "Vi": {
+    "id": 254,
+    "name_cn": "蔚",
+    "search_terms": [
+      "蔚",
+      "皮城执法官",
+      "拳女",
+      "VI",
+      "Vi"
+    ]
+  },
+  "Aatrox": {
+    "id": 266,
+    "name_cn": "亚托克斯",
+    "search_terms": [
+      "亚托克斯",
+      "暗裔剑魔",
+      "剑魔"
+    ]
+  },
+  "Nami": {
+    "id": 267,
+    "name_cn": "娜美",
+    "search_terms": [
+      "娜美",
+      "唤潮鲛姬",
+      "鲛姬"
+    ]
+  },
+  "Azir": {
+    "id": 268,
+    "name_cn": "阿兹尔",
+    "search_terms": [
+      "阿兹尔",
+      "沙漠皇帝",
+      "沙皇"
+    ]
+  },
+  "Yuumi": {
+    "id": 350,
+    "name_cn": "悠米",
+    "search_terms": [
+      "悠米",
+      "魔法猫咪",
+      "猫咪",
+      "猫"
+    ]
+  },
+  "Samira": {
+    "id": 360,
+    "name_cn": "莎弥拉",
+    "search_terms": [
+      "莎弥拉",
+      "沙漠玫瑰"
+    ]
+  },
+  "Thresh": {
+    "id": 412,
+    "name_cn": "锤石",
+    "search_terms": [
+      "锤石",
+      "魂锁典狱长"
+    ]
+  },
+  "Illaoi": {
+    "id": 420,
+    "name_cn": "俄洛伊",
+    "search_terms": [
+      "俄洛伊",
+      "海兽祭司",
+      "触手妈"
+    ]
+  },
+  "RekSai": {
+    "id": 421,
+    "name_cn": "雷克塞",
+    "search_terms": [
+      "雷克塞",
+      "虚空遁地兽",
+      "挖掘机",
+      "雷克赛"
+    ]
+  },
+  "Ivern": {
+    "id": 427,
+    "name_cn": "艾翁",
+    "search_terms": [
+      "艾翁",
+      "翠神",
+      "小菊"
+    ]
+  },
+  "Kalista": {
+    "id": 429,
+    "name_cn": "卡莉丝塔",
+    "search_terms": [
+      "卡莉丝塔",
+      "卡莉斯塔",
+      "复仇之矛",
+      "滑板鞋"
+    ]
+  },
+  "Bard": {
+    "id": 432,
+    "name_cn": "巴德",
+    "search_terms": [
+      "巴德",
+      "星界游神"
+    ]
+  },
+  "Rakan": {
+    "id": 497,
+    "name_cn": "洛",
+    "search_terms": [
+      "洛",
+      "幻翎"
+    ]
+  },
+  "Xayah": {
+    "id": 498,
+    "name_cn": "霞",
+    "search_terms": [
+      "霞",
+      "逆羽"
+    ]
+  },
+  "Ornn": {
+    "id": 516,
+    "name_cn": "奥恩",
+    "search_terms": [
+      "奥恩",
+      "山隐之焰",
+      "羊来"
+    ]
+  },
+  "Sylas": {
+    "id": 517,
+    "name_cn": "塞拉斯",
+    "search_terms": [
+      "塞拉斯",
+      "解脱者"
+    ]
+  },
+  "Neeko": {
+    "id": 518,
+    "name_cn": "妮蔻",
+    "search_terms": [
+      "妮蔻",
+      "万花通灵"
+    ]
+  },
+  "Aphelios": {
+    "id": 523,
+    "name_cn": "厄斐琉斯",
+    "search_terms": [
+      "厄斐琉斯",
+      "残月之肃",
+      "五器大师"
+    ]
+  },
+  "Rell": {
+    "id": 526,
+    "name_cn": "芮尔",
+    "search_terms": [
+      "芮尔",
+      "镕铁少女",
+      "镕铁"
+    ]
+  },
+  "Pyke": {
+    "id": 555,
+    "name_cn": "派克",
+    "search_terms": [
+      "派克",
+      "血港鬼影"
+    ]
+  },
+  "Vex": {
+    "id": 711,
+    "name_cn": "薇古丝",
+    "search_terms": [
+      "薇古丝",
+      "熬夜波比",
+      "愁云使者"
+    ]
+  },
+  "Yone": {
+    "id": 777,
+    "name_cn": "永恩",
+    "search_terms": [
+      "永恩",
+      "封魔剑魂"
+    ]
+  },
+  "Ambessa": {
+    "id": 799,
+    "name_cn": "安蓓萨",
+    "search_terms": [
+      "安蓓萨",
+      "铁血狼母"
+    ]
+  },
+  "Mel": {
+    "id": 800,
+    "name_cn": "梅尔",
+    "search_terms": [
+      "梅尔",
+      "流光镜影"
+    ]
+  },
+  "Yunara": {
+    "id": 804,
+    "name_cn": "芸阿娜",
+    "search_terms": [
+      "芸阿娜",
+      "不破之誓"
+    ]
+  },
+  "Sett": {
+    "id": 875,
+    "name_cn": "瑟提",
+    "search_terms": [
+      "瑟提",
+      "腕豪",
+      "劲夫"
+    ]
+  },
+  "Lillia": {
+    "id": 876,
+    "name_cn": "莉莉娅",
+    "search_terms": [
+      "莉莉娅",
+      "含羞蓓蕾",
+      "小鹿"
+    ]
+  },
+  "Gwen": {
+    "id": 887,
+    "name_cn": "格温",
+    "search_terms": [
+      "格温",
+      "灵罗娃娃",
+      "娃wa",
+      "Gw",
+      "灵"
+    ]
+  },
+  "Renata": {
+    "id": 888,
+    "name_cn": "烈娜塔 · 戈拉斯克",
+    "search_terms": [
+      "烈娜塔 · 戈拉斯克",
+      "烈娜塔戈拉斯克",
+      "炼金男爵",
+      "烈娜塔"
+    ]
+  },
+  "Aurora": {
+    "id": 893,
+    "name_cn": "阿萝拉",
+    "search_terms": [
+      "阿萝拉",
+      "双界灵兔"
+    ]
+  },
+  "Nilah": {
+    "id": 895,
+    "name_cn": "尼菈",
+    "search_terms": [
+      "尼菈",
+      "不羁之悦"
+    ]
+  },
+  "KSante": {
+    "id": 897,
+    "name_cn": "奎桑提",
+    "search_terms": [
+      "奎桑提",
+      "纳祖芒荣耀"
+    ]
+  },
+  "Smolder": {
+    "id": 901,
+    "name_cn": "斯莫德",
+    "search_terms": [
+      "斯莫德",
+      "炽炎雏龙",
+      "小火龙"
+    ]
+  },
+  "Milio": {
+    "id": 902,
+    "name_cn": "米利欧",
+    "search_terms": [
+      "米利欧",
+      "明烛"
+    ]
+  },
+  "Zaahen": {
+    "id": 904,
+    "name_cn": "亚恒",
+    "search_terms": [
+      "亚恒",
+      "不落魔锋"
+    ]
+  },
+  "Hwei": {
+    "id": 910,
+    "name_cn": "彗",
+    "search_terms": [
+      "彗",
+      "异画师"
+    ]
+  },
+  "Naafiri": {
+    "id": 950,
+    "name_cn": "纳亚菲利",
+    "search_terms": [
+      "纳亚菲利",
+      "百裂冥犬",
+      "百狗"
+    ]
+  }
+}

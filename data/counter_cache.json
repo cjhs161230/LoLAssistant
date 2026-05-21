@@ -1,0 +1,1785 @@
+{
+  "annie": {
+    "name": "Annie",
+    "countered_by": [
+      {
+        "name": "Yone",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Aurora",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Diana",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Veigar",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "yasuo": {
+    "name": "Yasuo",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Ekko",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Taliyah",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Annie",
+        "winRateAgainst": 56.0
+      }
+    ]
+  },
+  "smolder": {
+    "name": "Smolder",
+    "countered_by": [
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "fizz": {
+    "name": "Fizz",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Syndra",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Diana",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "malphite": {
+    "name": "Malphite",
+    "countered_by": [
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 58.0
+      }
+    ]
+  },
+  "ahri": {
+    "name": "Ahri",
+    "countered_by": [
+      {
+        "name": "Azir",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Akali",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Annie",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "nocturne": {
+    "name": "Nocturne",
+    "countered_by": []
+  },
+  "katarina": {
+    "name": "Katarina",
+    "countered_by": [
+      {
+        "name": "Taliyah",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Syndra",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Veigar",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Riven",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Vladimir",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Galio",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "teemo": {
+    "name": "Teemo",
+    "countered_by": []
+  },
+  "seraphine": {
+    "name": "Seraphine",
+    "countered_by": []
+  },
+  "xerath": {
+    "name": "Xerath",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 60.0
+      },
+      {
+        "name": "Azir",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Syndra",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Talon",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "milio": {
+    "name": "Milio",
+    "countered_by": []
+  },
+  "lee sin": {
+    "name": "Lee Sin",
+    "countered_by": []
+  },
+  "nami": {
+    "name": "Nami",
+    "countered_by": []
+  },
+  "thresh": {
+    "name": "Thresh",
+    "countered_by": []
+  },
+  "warwick": {
+    "name": "Warwick",
+    "countered_by": []
+  },
+  "garen": {
+    "name": "Garen",
+    "countered_by": []
+  },
+  "ornn": {
+    "name": "Ornn",
+    "countered_by": []
+  },
+  "shen": {
+    "name": "Shen",
+    "countered_by": []
+  },
+  "tryndamere": {
+    "name": "Tryndamere",
+    "countered_by": []
+  },
+  "singed": {
+    "name": "Singed",
+    "countered_by": []
+  },
+  "olaf": {
+    "name": "Olaf",
+    "countered_by": []
+  },
+  "vladimir": {
+    "name": "Vladimir",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Anivia",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "diana": {
+    "name": "Diana",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Qiyana",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Ekko",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Vladimir",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "ekko": {
+    "name": "Ekko",
+    "countered_by": [
+      {
+        "name": "Syndra",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Diana",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "jinx": {
+    "name": "Jinx",
+    "countered_by": []
+  },
+  "ashe": {
+    "name": "Ashe",
+    "countered_by": []
+  },
+  "senna": {
+    "name": "Senna",
+    "countered_by": []
+  },
+  "vayne": {
+    "name": "Vayne",
+    "countered_by": []
+  },
+  "graves": {
+    "name": "Graves",
+    "countered_by": []
+  },
+  "kayle": {
+    "name": "Kayle",
+    "countered_by": []
+  },
+  "caitlyn": {
+    "name": "Caitlyn",
+    "countered_by": []
+  },
+  "jhin": {
+    "name": "Jhin",
+    "countered_by": []
+  },
+  "quinn": {
+    "name": "Quinn",
+    "countered_by": []
+  },
+  "briar": {
+    "name": "Briar",
+    "countered_by": []
+  },
+  "kindred": {
+    "name": "Kindred",
+    "countered_by": []
+  },
+  "twistedfate": {
+    "name": "TwistedFate",
+    "countered_by": [
+      {
+        "name": "Azir",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Akali",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 51.0
+      }
+    ]
+  },
+  "xinzhao": {
+    "name": "XinZhao",
+    "countered_by": [
+      {
+        "name": "Zed",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "masteryi": {
+    "name": "MasterYi",
+    "countered_by": []
+  },
+  "fiddlesticks": {
+    "name": "FiddleSticks",
+    "countered_by": []
+  },
+  "alistar": {
+    "name": "Alistar",
+    "countered_by": []
+  },
+  "leblanc": {
+    "name": "Leblanc",
+    "countered_by": [
+      {
+        "name": "Talon",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Orianna",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Ekko",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Vex",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "ryze": {
+    "name": "Ryze",
+    "countered_by": [
+      {
+        "name": "Sylas",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Aurora",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Ekko",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "sion": {
+    "name": "Sion",
+    "countered_by": [
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 60.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 51.0
+      }
+    ]
+  },
+  "soraka": {
+    "name": "Soraka",
+    "countered_by": []
+  },
+  "urgot": {
+    "name": "Urgot",
+    "countered_by": []
+  },
+  "sivir": {
+    "name": "Sivir",
+    "countered_by": []
+  },
+  "tristana": {
+    "name": "Tristana",
+    "countered_by": []
+  },
+  "morgana": {
+    "name": "Morgana",
+    "countered_by": []
+  },
+  "nunu": {
+    "name": "Nunu",
+    "countered_by": []
+  },
+  "missfortune": {
+    "name": "MissFortune",
+    "countered_by": []
+  },
+  "jax": {
+    "name": "Jax",
+    "countered_by": []
+  },
+  "galio": {
+    "name": "Galio",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Veigar",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Anivia",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "zilean": {
+    "name": "Zilean",
+    "countered_by": []
+  },
+  "evelynn": {
+    "name": "Evelynn",
+    "countered_by": []
+  },
+  "karthus": {
+    "name": "Karthus",
+    "countered_by": []
+  },
+  "twitch": {
+    "name": "Twitch",
+    "countered_by": []
+  },
+  "amumu": {
+    "name": "Amumu",
+    "countered_by": []
+  },
+  "chogath": {
+    "name": "Chogath",
+    "countered_by": []
+  },
+  "rammus": {
+    "name": "Rammus",
+    "countered_by": []
+  },
+  "anivia": {
+    "name": "Anivia",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Orianna",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Galio",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "drmundo": {
+    "name": "DrMundo",
+    "countered_by": []
+  },
+  "shaco": {
+    "name": "Shaco",
+    "countered_by": []
+  },
+  "kassadin": {
+    "name": "Kassadin",
+    "countered_by": [
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "sona": {
+    "name": "Sona",
+    "countered_by": []
+  },
+  "janna": {
+    "name": "Janna",
+    "countered_by": []
+  },
+  "gangplank": {
+    "name": "Gangplank",
+    "countered_by": []
+  },
+  "corki": {
+    "name": "Corki",
+    "countered_by": []
+  },
+  "irelia": {
+    "name": "Irelia",
+    "countered_by": [
+      {
+        "name": "Yone",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Diana",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Akali",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "taric": {
+    "name": "Taric",
+    "countered_by": []
+  },
+  "veigar": {
+    "name": "Veigar",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Galio",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "trundle": {
+    "name": "Trundle",
+    "countered_by": []
+  },
+  "karma": {
+    "name": "Karma",
+    "countered_by": []
+  },
+  "renekton": {
+    "name": "Renekton",
+    "countered_by": [
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 57.0
+      }
+    ]
+  },
+  "blitzcrank": {
+    "name": "Blitzcrank",
+    "countered_by": []
+  },
+  "swain": {
+    "name": "Swain",
+    "countered_by": [
+      {
+        "name": "Sylas",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 51.0
+      }
+    ]
+  },
+  "maokai": {
+    "name": "Maokai",
+    "countered_by": []
+  },
+  "jarvaniv": {
+    "name": "JarvanIV",
+    "countered_by": []
+  },
+  "elise": {
+    "name": "Elise",
+    "countered_by": []
+  },
+  "leesin": {
+    "name": "LeeSin",
+    "countered_by": []
+  },
+  "brand": {
+    "name": "Brand",
+    "countered_by": [
+      {
+        "name": "Sylas",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Akali",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Vladimir",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "rumble": {
+    "name": "Rumble",
+    "countered_by": []
+  },
+  "monkeyking": {
+    "name": "MonkeyKing",
+    "countered_by": []
+  },
+  "skarner": {
+    "name": "Skarner",
+    "countered_by": []
+  },
+  "orianna": {
+    "name": "Orianna",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Vladimir",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "cassiopeia": {
+    "name": "Cassiopeia",
+    "countered_by": [
+      {
+        "name": "Sylas",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "nasus": {
+    "name": "Nasus",
+    "countered_by": []
+  },
+  "poppy": {
+    "name": "Poppy",
+    "countered_by": []
+  },
+  "heimerdinger": {
+    "name": "Heimerdinger",
+    "countered_by": []
+  },
+  "gragas": {
+    "name": "Gragas",
+    "countered_by": []
+  },
+  "ezreal": {
+    "name": "Ezreal",
+    "countered_by": []
+  },
+  "nidalee": {
+    "name": "Nidalee",
+    "countered_by": []
+  },
+  "mordekaiser": {
+    "name": "Mordekaiser",
+    "countered_by": []
+  },
+  "akali": {
+    "name": "Akali",
+    "countered_by": [
+      {
+        "name": "Yone",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Irelia",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Mel",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "yorick": {
+    "name": "Yorick",
+    "countered_by": []
+  },
+  "udyr": {
+    "name": "Udyr",
+    "countered_by": []
+  },
+  "kennen": {
+    "name": "Kennen",
+    "countered_by": []
+  },
+  "leona": {
+    "name": "Leona",
+    "countered_by": []
+  },
+  "pantheon": {
+    "name": "Pantheon",
+    "countered_by": [
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 51.0
+      }
+    ]
+  },
+  "riven": {
+    "name": "Riven",
+    "countered_by": [
+      {
+        "name": "Katarina",
+        "winRateAgainst": 56.0
+      }
+    ]
+  },
+  "malzahar": {
+    "name": "Malzahar",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Sion",
+        "winRateAgainst": 60.0
+      },
+      {
+        "name": "Galio",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "kogmaw": {
+    "name": "KogMaw",
+    "countered_by": []
+  },
+  "lux": {
+    "name": "Lux",
+    "countered_by": [
+      {
+        "name": "Hwei",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Orianna",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "talon": {
+    "name": "Talon",
+    "countered_by": [
+      {
+        "name": "Xerath",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "rengar": {
+    "name": "Rengar",
+    "countered_by": []
+  },
+  "shyvana": {
+    "name": "Shyvana",
+    "countered_by": []
+  },
+  "volibear": {
+    "name": "Volibear",
+    "countered_by": []
+  },
+  "sejuani": {
+    "name": "Sejuani",
+    "countered_by": []
+  },
+  "viktor": {
+    "name": "Viktor",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Azir",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Akali",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "varus": {
+    "name": "Varus",
+    "countered_by": []
+  },
+  "fiora": {
+    "name": "Fiora",
+    "countered_by": []
+  },
+  "nautilus": {
+    "name": "Nautilus",
+    "countered_by": []
+  },
+  "lulu": {
+    "name": "Lulu",
+    "countered_by": []
+  },
+  "draven": {
+    "name": "Draven",
+    "countered_by": []
+  },
+  "ziggs": {
+    "name": "Ziggs",
+    "countered_by": [
+      {
+        "name": "Viktor",
+        "winRateAgainst": 51.0
+      }
+    ]
+  },
+  "hecarim": {
+    "name": "Hecarim",
+    "countered_by": []
+  },
+  "khazix": {
+    "name": "Khazix",
+    "countered_by": []
+  },
+  "darius": {
+    "name": "Darius",
+    "countered_by": []
+  },
+  "jayce": {
+    "name": "Jayce",
+    "countered_by": []
+  },
+  "lissandra": {
+    "name": "Lissandra",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Vex",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Lux",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "syndra": {
+    "name": "Syndra",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 56.0
+      }
+    ]
+  },
+  "kayn": {
+    "name": "Kayn",
+    "countered_by": []
+  },
+  "kaisa": {
+    "name": "Kaisa",
+    "countered_by": []
+  },
+  "gnar": {
+    "name": "Gnar",
+    "countered_by": []
+  },
+  "zyra": {
+    "name": "Zyra",
+    "countered_by": []
+  },
+  "aurelionsol": {
+    "name": "AurelionSol",
+    "countered_by": [
+      {
+        "name": "Syndra",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "zoe": {
+    "name": "Zoe",
+    "countered_by": [
+      {
+        "name": "Zed",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "zac": {
+    "name": "Zac",
+    "countered_by": []
+  },
+  "taliyah": {
+    "name": "Taliyah",
+    "countered_by": [
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "akshan": {
+    "name": "Akshan",
+    "countered_by": [
+      {
+        "name": "Aurora",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Vladimir",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Annie",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "camille": {
+    "name": "Camille",
+    "countered_by": []
+  },
+  "velkoz": {
+    "name": "Velkoz",
+    "countered_by": [
+      {
+        "name": "Viktor",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 50.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Zed",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "braum": {
+    "name": "Braum",
+    "countered_by": []
+  },
+  "zeri": {
+    "name": "Zeri",
+    "countered_by": []
+  },
+  "tahmkench": {
+    "name": "TahmKench",
+    "countered_by": []
+  },
+  "viego": {
+    "name": "Viego",
+    "countered_by": []
+  },
+  "lucian": {
+    "name": "Lucian",
+    "countered_by": []
+  },
+  "kled": {
+    "name": "Kled",
+    "countered_by": []
+  },
+  "qiyana": {
+    "name": "Qiyana",
+    "countered_by": [
+      {
+        "name": "Syndra",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Yone",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Akali",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Diana",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Vex",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "zed": {
+    "name": "Zed",
+    "countered_by": [
+      {
+        "name": "Taliyah",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Mel",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Malphite",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "vi": {
+    "name": "Vi",
+    "countered_by": []
+  },
+  "samira": {
+    "name": "Samira",
+    "countered_by": []
+  },
+  "yuumi": {
+    "name": "Yuumi",
+    "countered_by": []
+  },
+  "belveth": {
+    "name": "Belveth",
+    "countered_by": []
+  },
+  "azir": {
+    "name": "Azir",
+    "countered_by": [
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 57.0
+      }
+    ]
+  },
+  "reksai": {
+    "name": "RekSai",
+    "countered_by": []
+  },
+  "ivern": {
+    "name": "Ivern",
+    "countered_by": []
+  },
+  "illaoi": {
+    "name": "Illaoi",
+    "countered_by": []
+  },
+  "aatrox": {
+    "name": "Aatrox",
+    "countered_by": []
+  },
+  "bard": {
+    "name": "Bard",
+    "countered_by": []
+  },
+  "kalista": {
+    "name": "Kalista",
+    "countered_by": []
+  },
+  "sylas": {
+    "name": "Sylas",
+    "countered_by": [
+      {
+        "name": "Malphite",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Azir",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Irelia",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Taliyah",
+        "winRateAgainst": 57.0
+      },
+      {
+        "name": "Swain",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "xayah": {
+    "name": "Xayah",
+    "countered_by": []
+  },
+  "aphelios": {
+    "name": "Aphelios",
+    "countered_by": []
+  },
+  "rakan": {
+    "name": "Rakan",
+    "countered_by": []
+  },
+  "rell": {
+    "name": "Rell",
+    "countered_by": []
+  },
+  "pyke": {
+    "name": "Pyke",
+    "countered_by": []
+  },
+  "vex": {
+    "name": "Vex",
+    "countered_by": [
+      {
+        "name": "Yone",
+        "winRateAgainst": 60.0
+      },
+      {
+        "name": "Qiyana",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Vladimir",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Viktor",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 52.0
+      }
+    ]
+  },
+  "yone": {
+    "name": "Yone",
+    "countered_by": [
+      {
+        "name": "Yasuo",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Mel",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Vex",
+        "winRateAgainst": 60.0
+      },
+      {
+        "name": "Annie",
+        "winRateAgainst": 58.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 56.0
+      }
+    ]
+  },
+  "mel": {
+    "name": "Mel",
+    "countered_by": [
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Ahri",
+        "winRateAgainst": 50.0
+      },
+      {
+        "name": "Zoe",
+        "winRateAgainst": 50.0
+      },
+      {
+        "name": "Xerath",
+        "winRateAgainst": 60.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 59.0
+      },
+      {
+        "name": "Syndra",
+        "winRateAgainst": 59.0
+      }
+    ]
+  },
+  "ambessa": {
+    "name": "Ambessa",
+    "countered_by": []
+  },
+  "neeko": {
+    "name": "Neeko",
+    "countered_by": []
+  },
+  "gwen": {
+    "name": "Gwen",
+    "countered_by": []
+  },
+  "aurora": {
+    "name": "Aurora",
+    "countered_by": [
+      {
+        "name": "Yone",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Galio",
+        "winRateAgainst": 52.0
+      },
+      {
+        "name": "Sylas",
+        "winRateAgainst": 51.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Annie",
+        "winRateAgainst": 54.0
+      }
+    ]
+  },
+  "yunara": {
+    "name": "Yunara",
+    "countered_by": []
+  },
+  "sett": {
+    "name": "Sett",
+    "countered_by": []
+  },
+  "lillia": {
+    "name": "Lillia",
+    "countered_by": []
+  },
+  "nilah": {
+    "name": "Nilah",
+    "countered_by": []
+  },
+  "ksante": {
+    "name": "KSante",
+    "countered_by": []
+  },
+  "naafiri": {
+    "name": "Naafiri",
+    "countered_by": [
+      {
+        "name": "LeBlanc",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Hwei",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Orianna",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Lissandra",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Fizz",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Galio",
+        "winRateAgainst": 53.0
+      }
+    ]
+  },
+  "renata": {
+    "name": "Renata",
+    "countered_by": []
+  },
+  "hwei": {
+    "name": "Hwei",
+    "countered_by": [
+      {
+        "name": "Mel",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Ryze",
+        "winRateAgainst": 54.0
+      },
+      {
+        "name": "Malzahar",
+        "winRateAgainst": 53.0
+      },
+      {
+        "name": "Naafiri",
+        "winRateAgainst": 56.0
+      },
+      {
+        "name": "Katarina",
+        "winRateAgainst": 55.0
+      },
+      {
+        "name": "Lux",
+        "winRateAgainst": 55.0
+      }
+    ]
+  },
+  "zaahen": {
+    "name": "Zaahen",
+    "countered_by": []
+  }
+}

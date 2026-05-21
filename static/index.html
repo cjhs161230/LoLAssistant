@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LoL 选人助手</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bg:      '#0A0A0F',
+        surface: '#14141F',
+        card:    '#1C1C2E',
+        border:  '#2A2A3E',
+        muted:   '#6B6B80',
+        gold:    '#C8AA6E',
+        goldH:   '#D9BC7E',
+        blueA:   '#58A6FF',
+        greenA:  '#3FB950',
+        redA:    '#F85149',
+        yellowA: '#D29922',
+      }
+    }
+  }
+}
+</script>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #2A2A3E; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3A3A4E; }
+  .glass { background: rgba(20,20,35,0.8); backdrop-filter: blur(12px); border: 1px solid #2A2A3E; }
+  .chip { transition: all 0.15s ease; }
+  .chip:hover { background: #2A2A4A; }
+  .fade-enter-active, .fade-leave-active { transition: opacity 0.2s ease; }
+  .fade-enter-from, .fade-leave-to { opacity: 0; }
+  .list-enter-active { transition: all 0.25s ease; }
+  .list-enter-from { opacity: 0; transform: translateY(-4px); }
+  @keyframes pulse-gold { 0%,100%{ box-shadow: 0 0 0 0 rgba(200,170,110,0.4) } 50%{ box-shadow: 0 0 0 4px rgba(200,170,110,0) } }
+  .btn-primary { animation: pulse-gold 2s infinite; }
+</style>
+</head>
+<body class="bg-bg text-white min-h-screen">
+
+<div id="app">
+  <div class="max-w-5xl mx-auto px-4 py-6">
+
+    <!-- 头部 -->
+    <header class="flex items-center justify-between mb-6">
+      <div>
+        <h1 class="text-2xl font-bold text-gold tracking-wide">LoL 选人助手</h1>
+        <p class="text-muted text-sm mt-0.5">基于版本数据的智能英雄推荐</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-2 h-2 rounded-full" :class="connected ? 'bg-greenA' : 'bg-redA'"></span>
+        <span class="text-xs text-muted">{{ connected ? '就绪' : '离线' }}</span>
+        <button @click="showPersonal = true"
+          class="px-3 py-1.5 text-xs border border-border rounded-lg hover:bg-surface transition-colors">
+          擅长英雄
+        </button>
+      </div>
+    </header>
+
+    <!-- 主体 -->
+    <div class="grid grid-cols-12 gap-5">
+
+      <!-- 左侧：搜索 + 位置 -->
+      <div class="col-span-4 space-y-4">
+        <!-- 位置 -->
+        <div class="glass rounded-xl p-4">
+          <div class="text-xs text-muted mb-3 uppercase tracking-wider">你的位置</div>
+          <div class="grid grid-cols-5 gap-1.5">
+            <button v-for="p in positions" :key="p.key"
+              @click="position = p.key"
+              class="py-2 text-sm rounded-lg transition-all font-medium"
+              :class="position === p.key
+                ? 'bg-gold text-black shadow-lg shadow-gold/20'
+                : 'bg-surface hover:bg-card text-muted'">
+              {{ p.label }}
+            </button>
+          </div>
+        </div>
+
+        <!-- 搜索 -->
+        <div class="glass rounded-xl p-4">
+          <div class="text-xs text-muted mb-2 uppercase tracking-wider">搜索英雄</div>
+          <input v-model="searchQuery" @input="searchChampions"
+            placeholder="中文名 / 英文名 / 外号..."
+            class="w-full bg-surface border border-border rounded-lg px-3 py-2.5 text-sm
+                   placeholder-muted focus:outline-none focus:border-gold transition-colors">
+          <div class="mt-3 space-y-0.5 max-h-64 overflow-y-auto" v-if="searchResults.length">
+            <div v-for="c in searchResults" :key="c.id"
+              @click="selectChampion(c)"
+              class="flex items-center justify-between px-3 py-2 rounded-lg cursor-pointer
+                     hover:bg-surface transition-colors text-sm"
+              :class="{ 'bg-card border border-gold/30': selected?.id === c.id }">
+              <span>{{ c.cn_name }}</span>
+              <span class="text-xs text-muted">{{ c.en_name }}</span>
+            </div>
+          </div>
+          <div v-else class="text-xs text-muted mt-3 text-center py-4">
+            {{ searchQuery ? '无匹配英雄' : '输入关键词搜索' }}
+          </div>
+        </div>
+
+        <!-- Tier 排行 -->
+        <div class="glass rounded-xl p-4">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs uppercase tracking-wider text-muted">版本 Tier 排行</span>
+            <span class="text-xs text-muted">{{ tierPositionLabel }}</span>
+          </div>
+          <div v-if="tierChampions.length" class="space-y-1.5 max-h-80 overflow-y-auto">
+            <div v-for="(c, i) in tierChampions" :key="c.name"
+              @click="selectTierChamp(c)"
+              class="flex items-center gap-2 px-2 py-1.5 rounded-lg cursor-pointer hover:bg-surface transition-colors text-sm">
+              <span class="w-5 text-xs text-muted text-right">{{ i + 1 }}</span>
+              <span class="flex-1 truncate">{{ c.cn_name || c.name }}</span>
+              <span class="px-1.5 py-0.5 rounded text-xs font-semibold"
+                :class="tierBadgeClass(c.tier)">{{ c.tier === '0' ? 'OP' : 'T' + c.tier }}</span>
+              <span class="text-xs text-muted w-12 text-right">{{ c.winRate }}%</span>
+            </div>
+          </div>
+          <div v-else class="text-xs text-muted text-center py-4">加载中...</div>
+        </div>
+      </div>
+
+      <!-- 右侧：选人面板 -->
+      <div class="col-span-8 space-y-4">
+
+        <!-- 快速添加按钮 -->
+        <div v-if="selected" class="glass rounded-xl p-3 flex items-center gap-3 animate-pulse">
+          <span class="text-gold font-semibold">{{ selected.cn_name }}</span>
+          <span class="text-xs text-muted">{{ selected.en_name }}</span>
+          <div class="flex-1"></div>
+          <button @click="addTo('enemy')" :disabled="enemy.length>=5"
+            class="px-3 py-1.5 text-xs rounded-lg transition-colors"
+            :class="enemy.length>=5 ? 'bg-surface text-muted cursor-not-allowed' : 'bg-redA/10 text-redA hover:bg-redA/20'">
+            加到对手 ({{ enemy.length }}/5)
+          </button>
+          <button @click="addTo('team')" :disabled="team.length>=4"
+            class="px-3 py-1.5 text-xs rounded-lg transition-colors"
+            :class="team.length>=4 ? 'bg-surface text-muted cursor-not-allowed' : 'bg-blueA/10 text-blueA hover:bg-blueA/20'">
+            加到我方 ({{ team.length }}/4)
+          </button>
+          <button @click="addTo('ban')" :disabled="bans.length>=10"
+            class="px-3 py-1.5 text-xs rounded-lg transition-colors"
+            :class="bans.length>=10 ? 'bg-surface text-muted cursor-not-allowed' : 'bg-yellowA/10 text-yellowA hover:bg-yellowA/20'">
+            加到 Ban ({{ bans.length }}/10)
+          </button>
+        </div>
+
+        <!-- 三个区域 -->
+        <div class="grid grid-cols-3 gap-4">
+          <!-- 对手 -->
+          <div class="glass rounded-xl p-4">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-sm font-semibold text-redA">对手已选</span>
+              <span class="text-xs text-muted">{{ enemy.length }}/5</span>
+            </div>
+            <div class="space-y-2 min-h-[120px]">
+              <div v-for="c in enemy" :key="c.id" @click="remove('enemy', c)"
+                class="chip flex items-center justify-between px-3 py-2 rounded-lg
+                       bg-redA/10 border border-redA/20 text-sm cursor-pointer hover:bg-redA/20">
+                <span>{{ c.cn_name }}</span>
+                <span class="text-xs text-muted">×</span>
+              </div>
+              <div v-if="!enemy.length" class="text-xs text-muted text-center py-6">
+                点击左侧英雄添加
+              </div>
+            </div>
+          </div>
+
+          <!-- 我方 -->
+          <div class="glass rounded-xl p-4">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-sm font-semibold text-blueA">我方已选</span>
+              <span class="text-xs text-muted">{{ team.length }}/4</span>
+            </div>
+            <div class="space-y-2 min-h-[120px]">
+              <div v-for="c in team" :key="c.id" @click="remove('team', c)"
+                class="chip flex items-center justify-between px-3 py-2 rounded-lg
+                       bg-blueA/10 border border-blueA/20 text-sm cursor-pointer hover:bg-blueA/20">
+                <span>{{ c.cn_name }}</span>
+                <span class="text-xs text-muted">×</span>
+              </div>
+              <div v-if="!team.length" class="text-xs text-muted text-center py-6">
+                不含你自己的英雄
+              </div>
+            </div>
+          </div>
+
+          <!-- Ban 位 -->
+          <div class="glass rounded-xl p-4">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-sm font-semibold text-yellowA">Ban 位</span>
+              <span class="text-xs text-muted">{{ bans.length }}/10</span>
+            </div>
+            <div class="space-y-2 min-h-[120px]">
+              <div v-for="c in bans" :key="c.id" @click="remove('ban', c)"
+                class="chip flex items-center justify-between px-3 py-2 rounded-lg
+                       bg-yellowA/10 border border-yellowA/20 text-sm cursor-pointer hover:bg-yellowA/20">
+                <span>{{ c.cn_name }}</span>
+                <span class="text-xs text-muted">×</span>
+              </div>
+              <div v-if="!bans.length" class="text-xs text-muted text-center py-6">
+                点击左侧英雄添加
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 生成按钮 -->
+        <button @click="generate" :disabled="!enemy.length || loading"
+          class="w-full py-4 rounded-xl font-bold text-lg transition-all btn-primary
+                 disabled:opacity-30 disabled:cursor-not-allowed"
+          :class="enemy.length && !loading ? 'bg-gold text-black hover:bg-goldH' : 'bg-surface text-muted'">
+          <span v-if="loading" class="flex items-center justify-center gap-2">
+            <svg class="animate-spin w-5 h-5" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+            </svg>
+            计算中...
+          </span>
+          <span v-else>{{ enemy.length ? '生成推荐' : '请先添加对手英雄' }}</span>
+        </button>
+
+        <!-- 推荐结果 -->
+        <Transition name="fade">
+          <div v-if="results" class="glass rounded-xl p-5 space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gold">推荐结果</span>
+              <span class="text-xs text-muted">候选池 {{ results.total_candidates }} 个英雄</span>
+            </div>
+            <div v-for="(r, i) in results.recommendations" :key="i"
+              class="bg-card rounded-xl p-4 border border-border">
+              <div class="flex items-center justify-between mb-3">
+                <div class="flex items-center gap-3">
+                  <span class="text-2xl font-bold"
+                    :class="i===0 ? 'text-gold' : i===1 ? 'text-muted' : 'text-yellowA'">
+                    {{ i + 1 }}
+                  </span>
+                  <span class="text-lg font-bold">{{ r.champion_name }}</span>
+                </div>
+                <span class="text-xl font-bold" :class="scoreColor(r.total_score)">
+                  {{ r.total_score.toFixed(0) }}
+                  <span class="text-sm font-normal">分</span>
+                </span>
+              </div>
+
+              <!-- 分数条 -->
+              <div class="w-full h-2 bg-surface rounded-full mb-3 overflow-hidden">
+                <div class="h-full rounded-full transition-all duration-500"
+                  :class="scoreBarColor(r.total_score)"
+                  :style="{ width: r.total_score + '%' }"></div>
+              </div>
+
+              <!-- 细项 -->
+              <div class="grid grid-cols-4 gap-3 mb-3">
+                <div v-for="dim in [
+                  {k:'meta_score', label:'版本强度'},
+                  {k:'counter_score', label:'克制关系'},
+                  {k:'personal_score', label:'个人擅长'},
+                  {k:'team_score', label:'团队适配'}
+                ]" :key="dim.k" class="text-center">
+                  <div class="text-xs text-muted mb-1">{{ dim.label }}</div>
+                  <div class="text-sm font-semibold">{{ r.breakdown[dim.k].toFixed(0) }}</div>
+                </div>
+              </div>
+
+              <!-- 理由 -->
+              <div class="flex flex-wrap gap-2">
+                <span v-for="reason in r.reasons" :key="reason"
+                  class="px-2 py-0.5 text-xs rounded-full bg-blueA/10 text-blueA">
+                  {{ reason }}
+                </span>
+              </div>
+            </div>
+          </div>
+        </Transition>
+      </div>
+    </div>
+
+    <!-- 擅长英雄弹窗 -->
+    <Teleport to="body">
+      <Transition name="fade">
+        <div v-if="showPersonal" class="fixed inset-0 bg-black/60 flex items-center justify-center z-50"
+          @click.self="showPersonal = false">
+          <div class="glass rounded-2xl w-full max-w-lg p-6 mx-4 max-h-[80vh] overflow-y-auto">
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-lg font-bold text-gold">擅长英雄管理</h2>
+              <button @click="showPersonal = false"
+                class="w-8 h-8 rounded-lg hover:bg-surface flex items-center justify-center text-muted">✕</button>
+            </div>
+
+            <!-- 添加 -->
+            <div class="flex gap-2 mb-4">
+              <input v-model="psSearch" @input="searchPersonalChamps"
+                placeholder="搜索英雄..."
+                class="flex-1 bg-surface border border-border rounded-lg px-3 py-2 text-sm
+                       placeholder-muted focus:outline-none focus:border-gold">
+              <select v-model="psField" class="bg-surface border border-border rounded-lg px-2 py-2 text-sm">
+                <option value="">选择</option>
+                <option v-for="c in psResults" :key="c.id" :value="c">{{ c.cn_name }}</option>
+              </select>
+              <input v-model.number="psGames" placeholder="场次" type="number" min="1"
+                class="w-16 bg-surface border border-border rounded-lg px-2 py-2 text-sm text-center">
+              <input v-model.number="psWins" placeholder="胜场" type="number" min="0"
+                class="w-16 bg-surface border border-border rounded-lg px-2 py-2 text-sm text-center">
+              <button @click="addPersonal" :disabled="!psField || !psGames"
+                class="px-3 py-2 rounded-lg bg-gold text-black text-sm font-semibold
+                       disabled:opacity-30 hover:bg-goldH transition-colors">
+                添加
+              </button>
+            </div>
+
+            <!-- 已添加列表 -->
+            <div class="space-y-2">
+              <div v-for="(c, i) in personalList" :key="i"
+                class="flex items-center justify-between bg-surface rounded-lg px-4 py-3">
+                <div>
+                  <span class="text-sm font-semibold">{{ c.cn_name || c.name }}</span>
+                  <span class="text-xs text-muted ml-2">{{ c.gamesPlayed }}场 胜率{{ c.winRate }}%</span>
+                </div>
+                <button @click="removePersonal(i)"
+                  class="text-xs text-redA hover:underline">删除</button>
+              </div>
+              <div v-if="!personalList.length" class="text-sm text-muted text-center py-6">
+                暂无数据，添加你的擅长英雄以启用个人擅长分
+              </div>
+            </div>
+
+            <div class="flex justify-end mt-4 gap-3">
+              <button @click="showPersonal = false"
+                class="px-4 py-2 text-sm rounded-lg border border-border hover:bg-surface">关闭</button>
+              <button @click="savePersonal"
+                class="px-4 py-2 text-sm rounded-lg bg-gold text-black font-semibold hover:bg-goldH">
+                保存
+              </button>
+            </div>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
+
+  </div>
+</div>
+
+<script>
+const { createApp, ref, computed, onMounted } = Vue;
+
+createApp({
+  setup() {
+    const connected = ref(false);
+    const position = ref('MID');
+    const searchQuery = ref('');
+    const searchResults = ref([]);
+    const selected = ref(null);
+    const enemy = ref([]); const team = ref([]); const bans = ref([]);
+    const loading = ref(false); const results = ref(null);
+    const champions = ref([]);
+    const tierList = ref({});
+    const tierChampions = ref([]);
+
+    const positions = [
+      { key: 'TOP', label: '上单' }, { key: 'JUNGLE', label: '打野' },
+      { key: 'MID', label: '中单' }, { key: 'BOTTOM', label: 'ADC' },
+      { key: 'UTILITY', label: '辅助' },
+    ];
+
+    // 擅长英雄
+    const showPersonal = ref(false); const psSearch = ref('');
+    const psResults = ref([]); const psField = ref(null);
+    const psGames = ref(20); const psWins = ref(12);
+    const personalList = ref([]);
+
+    const API = '';
+
+    // 加载数据
+    onMounted(async () => {
+      try {
+        const [cr, tr] = await Promise.all([
+          fetch(API + '/api/champions'),
+          fetch(API + '/api/tier-list'),
+        ]);
+        champions.value = await cr.json();
+        tierList.value = await tr.json();
+        searchResults.value = champions.value.slice(0, 20);
+        updateTierDisplay();
+        connected.value = true;
+        // 加载个人数据
+        const pr = await fetch(API + '/api/personal');
+        const pd = await pr.json();
+        personalList.value = (pd.champions || []).map(c => {
+          const cn = champions.value.find(x => x.en_name === c.name);
+          return { ...c, cn_name: cn?.cn_name || c.name };
+        });
+      } catch(e) { console.error(e); }
+    });
+
+    function searchChampions() {
+      const q = searchQuery.value.toLowerCase().trim();
+      if (!q) { searchResults.value = champions.value.slice(0, 20); return; }
+      searchResults.value = champions.value.filter(c =>
+        c.cn_name.includes(q) || c.en_name.toLowerCase().includes(q) ||
+        c.search_terms.some(t => t.toLowerCase().includes(q))
+      ).slice(0, 30);
+    }
+
+    function selectChampion(c) { selected.value = c; }
+
+    function addTo(cat) {
+      if (!selected.value) return;
+      const arr = cat === 'enemy' ? enemy : cat === 'team' ? team : bans;
+      const max = cat === 'enemy' ? 5 : cat === 'team' ? 4 : 10;
+      if (arr.value.length >= max) return;
+      if (arr.value.find(x => x.id === selected.value.id)) return;
+      arr.value.push({ ...selected.value });
+    }
+
+    function remove(cat, c) {
+      const arr = cat === 'enemy' ? enemy : cat === 'team' ? team : bans;
+      const idx = arr.value.findIndex(x => x.id === c.id);
+      if (idx >= 0) arr.value.splice(idx, 1);
+    }
+
+    async function generate() {
+      if (!enemy.value.length) return;
+      loading.value = true; results.value = null;
+      try {
+        const r = await fetch(API + '/api/recommend', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            position: position.value,
+            enemy_names: enemy.value.map(x => x.en_name),
+            team_names: team.value.map(x => x.en_name),
+            ban_names: bans.value.map(x => x.en_name),
+          }),
+        });
+        results.value = await r.json();
+      } catch(e) { console.error(e); }
+      loading.value = false;
+    }
+
+    // 个人数据
+    function searchPersonalChamps() {
+      const q = psSearch.value.toLowerCase().trim();
+      psResults.value = champions.value.filter(c =>
+        c.cn_name.includes(q) || c.en_name.toLowerCase().includes(q)
+      ).slice(0, 20);
+    }
+
+    function addPersonal() {
+      if (!psField.value || !psGames.value) return;
+      const wr = Math.round(psWins.value / psGames.value * 100 * 10) / 10;
+      const exists = personalList.value.findIndex(x => x.name === psField.value.en_name);
+      const entry = {
+        id: psField.value.id, name: psField.value.en_name,
+        cn_name: psField.value.cn_name, gamesPlayed: psGames.value,
+        wins: psWins.value, winRate: wr,
+      };
+      if (exists >= 0) { personalList.value[exists] = entry; }
+      else { personalList.value.push(entry); }
+      psField.value = null; psSearch.value = ''; psGames.value = 20; psWins.value = 12;
+    }
+
+    function removePersonal(i) { personalList.value.splice(i, 1); }
+
+    async function savePersonal() {
+      await fetch(API + '/api/personal', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          champions: personalList.value.map(c => ({
+            id: c.id, name: c.name, gamesPlayed: c.gamesPlayed,
+            wins: c.wins, winRate: c.winRate,
+          })),
+        }),
+      });
+      showPersonal.value = false;
+    }
+
+    // Tier 排行
+    const tierPositionLabel = computed(() => {
+      const map = { TOP: '上单', JUNGLE: '打野', MID: '中单', BOTTOM: 'ADC', UTILITY: '辅助' };
+      return map[position.value] || position.value;
+    });
+
+    function updateTierDisplay() {
+      if (!tierList.value || !Object.keys(tierList.value).length) return;
+      const pos = position.value;
+      const raw = tierList.value[pos] || [];
+      if (!raw.length) { tierChampions.value = []; return; }
+      // 按 tier 升序再按胜率降序，取前 15
+      const sorted = raw
+        .map(c => {
+          const match = (champions.value || []).find(
+            x => x.en_name?.toLowerCase() === c.name?.toLowerCase()
+          );
+          return { ...c, cn_name: match?.cn_name || c.name };
+        })
+        .sort((a, b) => {
+          const ta = parseInt(a.tier) || 99;
+          const tb = parseInt(b.tier) || 99;
+          if (ta !== tb) return ta - tb;
+          return (b.winRate || 0) - (a.winRate || 0);
+        })
+        .slice(0, 15);
+      tierChampions.value = sorted;
+    }
+    // 位置切换时更新 Tier 显示
+    const { watch } = Vue;
+    watch(position, () => updateTierDisplay());
+
+    function selectTierChamp(c) {
+      selected.value = { id: c.id, cn_name: c.cn_name || c.name, en_name: c.name };
+    }
+
+    function tierBadgeClass(tier) {
+      const t = parseInt(tier) || 99;
+      if (t === 0) return 'bg-purple-500/20 text-purple-400 border border-purple-500/30';
+      if (t <= 1) return 'bg-gold/20 text-gold border border-gold/30';
+      if (t <= 2) return 'bg-blueA/20 text-blueA border border-blueA/30';
+      if (t <= 3) return 'bg-greenA/20 text-greenA border border-greenA/30';
+      return 'bg-muted/20 text-muted border border-muted/30';
+    }
+
+    function scoreColor(s) {
+      if (s >= 80) return 'text-greenA';
+      if (s >= 60) return 'text-gold';
+      if (s >= 40) return 'text-yellowA';
+      return 'text-redA';
+    }
+
+    function scoreBarColor(s) {
+      if (s >= 80) return 'bg-greenA';
+      if (s >= 60) return 'bg-gold';
+      if (s >= 40) return 'bg-yellowA';
+      return 'bg-redA';
+    }
+
+    return {
+      connected, position, positions, searchQuery, searchResults, selected,
+      enemy, team, bans, loading, results,
+      tierList, tierChampions, tierPositionLabel,
+      showPersonal, psSearch, psResults, psField, psGames, psWins,
+      personalList,
+      searchChampions, selectChampion, addTo, remove, generate,
+      updateTierDisplay, selectTierChamp, tierBadgeClass,
+      searchPersonalChamps, addPersonal, removePersonal, savePersonal,
+      scoreColor, scoreBarColor,
+    };
+  }
+}).mount('#app');
+</script>
+</body>
+</html>

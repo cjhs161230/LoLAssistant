@@ -1,0 +1,3011 @@
+{
+  "tier_list": {
+    "UTILITY": [
+      {
+        "name": "Malphite",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Teemo",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Garen",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Kayle",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Sion",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Ornn",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Singed",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Shen",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Sett",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Darius",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Olaf",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Renekton",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nasus",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Urgot",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Mordekaiser",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yorick",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Warwick",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Varus",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Illaoi",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Cassiopeia",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Poppy",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Volibear",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gnar",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aurora",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rumble",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Anivia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Kennen",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Trundle",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Malzahar",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Heimerdinger",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Ryze",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Udyr",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Swain",
+        "winRate": 49.0,
+        "tier": "5"
+      },
+      {
+        "name": "Shyvana",
+        "winRate": 45.0,
+        "tier": "5"
+      },
+      {
+        "name": "Ahri",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Xerath",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Katarina",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Viktor",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lissandra",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Malzahar",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lux",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Vex",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Ekko",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Annie",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "LeBlanc",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hwei",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Veigar",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Zoe",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Anivia",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Syndra",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Galio",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Malphite",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Brand",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Aurora",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Orianna",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Kayle",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Kassadin",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Swain",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ryze",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Cassiopeia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sion",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ziggs",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Taliyah",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Mel",
+        "winRate": 46.0,
+        "tier": "5"
+      },
+      {
+        "name": "Azir",
+        "winRate": 47.0,
+        "tier": "5"
+      },
+      {
+        "name": "Shyvana",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Warwick",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Evelynn",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Rammus",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Udyr",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiddlesticks",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hecarim",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nidalee",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ivern",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Lillia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ekko",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Elise",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Darius",
+        "winRate": 53.0,
+        "tier": "4"
+      },
+      {
+        "name": "Amumu",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zac",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zyra",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sejuani",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Skarner",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Taliyah",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Volibear",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Brand",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Karthus",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Teemo",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Malphite",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Smolder",
+        "winRate": 55.0,
+        "tier": "0"
+      },
+      {
+        "name": "Ashe",
+        "winRate": 51.0,
+        "tier": "1"
+      },
+      {
+        "name": "Brand",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Jhin",
+        "winRate": 49.0,
+        "tier": "2"
+      },
+      {
+        "name": "Karthus",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ezreal",
+        "winRate": 48.0,
+        "tier": "3"
+      },
+      {
+        "name": "Senna",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ziggs",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Xerath",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hwei",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Varus",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Swain",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Veigar",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Corki",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Mel",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Seraphine",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Nami",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Thresh",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Senna",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Milio",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Bard",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Soraka",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Karma",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Leona",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Sona",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Braum",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Blitzcrank",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lulu",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Pyke",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Brand",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Janna",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Nautilus",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Rell",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lux",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Zilean",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Morgana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Poppy",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Rakan",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Taric",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Xerath",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Elise",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Alistar",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yuumi",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Maokai",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Zyra",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Neeko",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Swain",
+        "winRate": 48.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiddlesticks",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hwei",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zoe",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "LeBlanc",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Galio",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Anivia",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Shen",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Skarner",
+        "winRate": 47.0,
+        "tier": "5"
+      },
+      {
+        "name": "Mel",
+        "winRate": 43.0,
+        "tier": "5"
+      }
+    ],
+    "TOP": [
+      {
+        "name": "Malphite",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Garen",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Sion",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Ornn",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Singed",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Gangplank",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Yone",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Shen",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Sett",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Aatrox",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Tryndamere",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Darius",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Olaf",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Irelia",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Jax",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Kled",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Camille",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Renekton",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nasus",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Urgot",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Mordekaiser",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Riven",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yorick",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiora",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Warwick",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Illaoi",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ambessa",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Poppy",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Volibear",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zaahen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gwen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gnar",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rumble",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Trundle",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Udyr",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Shyvana",
+        "winRate": 45.0,
+        "tier": "5"
+      },
+      {
+        "name": "Fizz",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Diana",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Naafiri",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Galio",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Malphite",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yone",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Riven",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Irelia",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sion",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 49.0,
+        "tier": "5"
+      },
+      {
+        "name": "Nocturne",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Kayn",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Briar",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Shyvana",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Warwick",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Naafiri",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Viego",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Rammus",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vi",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Udyr",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hecarim",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Lillia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Darius",
+        "winRate": 53.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rengar",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Amumu",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aatrox",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zac",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Diana",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sejuani",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Skarner",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jax",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Volibear",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zaahen",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ambessa",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Fizz",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gwen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Malphite",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nilah",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Thresh",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Leona",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Braum",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Blitzcrank",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Nautilus",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Rell",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Poppy",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Taric",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Alistar",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Maokai",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Galio",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Camille",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Shen",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Skarner",
+        "winRate": 47.0,
+        "tier": "5"
+      }
+    ],
+    "MID": [
+      {
+        "name": "Malphite",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Teemo",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Kayle",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Singed",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Yone",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Tryndamere",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Irelia",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Vayne",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Camille",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Akali",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Mordekaiser",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Riven",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Dr. Mundo",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiora",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Varus",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ambessa",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Quinn",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Cho'Gath",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "K'Sante",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Wukong",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Tahm Kench",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Cassiopeia",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Zaahen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Xin Zhao",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aurora",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rumble",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Anivia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Kennen",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Malzahar",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Heimerdinger",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Ryze",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Master Yi",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Swain",
+        "winRate": 49.0,
+        "tier": "5"
+      },
+      {
+        "name": "Ahri",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Xerath",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Fizz",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Katarina",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Viktor",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Twisted Fate",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Zed",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lissandra",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Diana",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Malzahar",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lux",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Naafiri",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Akali",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Vex",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Ekko",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Annie",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "LeBlanc",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hwei",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Veigar",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Zoe",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Anivia",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Syndra",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Galio",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Malphite",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yone",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Talon",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Riven",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Xin Zhao",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Irelia",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Aurelion Sol",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Akshan",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Brand",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Qiyana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Aurora",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Orianna",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Kayle",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Kassadin",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vel'Koz",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Swain",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ryze",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Cassiopeia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ziggs",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Taliyah",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Cho'Gath",
+        "winRate": 51.0,
+        "tier": "5"
+      },
+      {
+        "name": "Mel",
+        "winRate": 46.0,
+        "tier": "5"
+      },
+      {
+        "name": "Azir",
+        "winRate": 47.0,
+        "tier": "5"
+      },
+      {
+        "name": "Lee Sin",
+        "winRate": 51.0,
+        "tier": "1"
+      },
+      {
+        "name": "Nocturne",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Kayn",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Master Yi",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Rek'Sai",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Wukong",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Briar",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Xin Zhao",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Naafiri",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Jarvan IV",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Viego",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Evelynn",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Talon",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vi",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Kha'Zix",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Shaco",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiddlesticks",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nidalee",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Bel'Veth",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ivern",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Lillia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ekko",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Elise",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rengar",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Nunu & Willump",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zyra",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Diana",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Taliyah",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zaahen",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ambessa",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Fizz",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Brand",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Karthus",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zed",
+        "winRate": 47.0,
+        "tier": "4"
+      },
+      {
+        "name": "Teemo",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Qiyana",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Dr. Mundo",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Malphite",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Quinn",
+        "winRate": 42.0,
+        "tier": "5"
+      },
+      {
+        "name": "Smolder",
+        "winRate": 55.0,
+        "tier": "0"
+      },
+      {
+        "name": "Brand",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Jhin",
+        "winRate": 49.0,
+        "tier": "2"
+      },
+      {
+        "name": "Miss Fortune",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Lucian",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Karthus",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ezreal",
+        "winRate": 48.0,
+        "tier": "3"
+      },
+      {
+        "name": "Twitch",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Kog'Maw",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Samira",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ziggs",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Xerath",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vayne",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Kai'Sa",
+        "winRate": 48.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hwei",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vel'Koz",
+        "winRate": 54.0,
+        "tier": "3"
+      },
+      {
+        "name": "Varus",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Tristana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nilah",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Swain",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Veigar",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aurelion Sol",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Corki",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Mel",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Seraphine",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Nami",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Milio",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Bard",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Soraka",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Karma",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Sona",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lulu",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Pyke",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Brand",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Janna",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lux",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Zilean",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Vel'Koz",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Morgana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Tahm Kench",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Xerath",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Elise",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yuumi",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Zyra",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Neeko",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Swain",
+        "winRate": 48.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiddlesticks",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Renata Glasc",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Hwei",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Shaco",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zoe",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "LeBlanc",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Galio",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Anivia",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Camille",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Mel",
+        "winRate": 43.0,
+        "tier": "5"
+      }
+    ],
+    "BOTTOM": [
+      {
+        "name": "Teemo",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Kayle",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Vayne",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Varus",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Quinn",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Akshan",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Kayle",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 49.0,
+        "tier": "5"
+      },
+      {
+        "name": "Azir",
+        "winRate": 47.0,
+        "tier": "5"
+      },
+      {
+        "name": "Graves",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Kindred",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Teemo",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Quinn",
+        "winRate": 42.0,
+        "tier": "5"
+      },
+      {
+        "name": "Smolder",
+        "winRate": 55.0,
+        "tier": "0"
+      },
+      {
+        "name": "Ashe",
+        "winRate": 51.0,
+        "tier": "1"
+      },
+      {
+        "name": "Jinx",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Caitlyn",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Jhin",
+        "winRate": 49.0,
+        "tier": "2"
+      },
+      {
+        "name": "Lucian",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ezreal",
+        "winRate": 48.0,
+        "tier": "3"
+      },
+      {
+        "name": "Senna",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Twitch",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Samira",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vayne",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Xayah",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Varus",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Tristana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Draven",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sivir",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Zeri",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aphelios",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Yunara",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Corki",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Kalista",
+        "winRate": 48.0,
+        "tier": "5"
+      },
+      {
+        "name": "Senna",
+        "winRate": 53.0,
+        "tier": "1"
+      }
+    ],
+    "JUNGLE": [
+      {
+        "name": "Garen",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Sion",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Gangplank",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Yone",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Sett",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Aatrox",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Tryndamere",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Darius",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Olaf",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Irelia",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Vayne",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Jax",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Kled",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Camille",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Akali",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Renekton",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nasus",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Urgot",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Mordekaiser",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Riven",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yorick",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Fiora",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Warwick",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Illaoi",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Ambessa",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Quinn",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Poppy",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Volibear",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zaahen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gwen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gnar",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aurora",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rumble",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Trundle",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Udyr",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Shyvana",
+        "winRate": 45.0,
+        "tier": "5"
+      },
+      {
+        "name": "Ahri",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Fizz",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Katarina",
+        "winRate": 52.0,
+        "tier": "1"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Zed",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Diana",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Naafiri",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Akali",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Ekko",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "LeBlanc",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yone",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Talon",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Riven",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Irelia",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Akshan",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Qiyana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Aurora",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Kassadin",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Sion",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 49.0,
+        "tier": "5"
+      },
+      {
+        "name": "Nocturne",
+        "winRate": 53.0,
+        "tier": "1"
+      },
+      {
+        "name": "Kayn",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Briar",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Shyvana",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Warwick",
+        "winRate": 53.0,
+        "tier": "2"
+      },
+      {
+        "name": "Naafiri",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Viego",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Evelynn",
+        "winRate": 52.0,
+        "tier": "2"
+      },
+      {
+        "name": "Talon",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vi",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Shaco",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Udyr",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Sylas",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Hecarim",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nidalee",
+        "winRate": 51.0,
+        "tier": "3"
+      },
+      {
+        "name": "Lillia",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ekko",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Elise",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Darius",
+        "winRate": 53.0,
+        "tier": "4"
+      },
+      {
+        "name": "Rengar",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Aatrox",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zac",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Diana",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gragas",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Skarner",
+        "winRate": 51.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jax",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Volibear",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zaahen",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Jayce",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Ambessa",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Fizz",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Zed",
+        "winRate": 47.0,
+        "tier": "4"
+      },
+      {
+        "name": "Qiyana",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Gwen",
+        "winRate": 50.0,
+        "tier": "4"
+      },
+      {
+        "name": "Quinn",
+        "winRate": 42.0,
+        "tier": "5"
+      },
+      {
+        "name": "Lucian",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Twitch",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Samira",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Vayne",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Yasuo",
+        "winRate": 53.0,
+        "tier": "3"
+      },
+      {
+        "name": "Tristana",
+        "winRate": 50.0,
+        "tier": "3"
+      },
+      {
+        "name": "Nilah",
+        "winRate": 52.0,
+        "tier": "4"
+      },
+      {
+        "name": "Vladimir",
+        "winRate": 50.0,
+        "tier": "5"
+      },
+      {
+        "name": "Blitzcrank",
+        "winRate": 51.0,
+        "tier": "2"
+      },
+      {
+        "name": "Pyke",
+        "winRate": 50.0,
+        "tier": "2"
+      },
+      {
+        "name": "Poppy",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Elise",
+        "winRate": 52.0,
+        "tier": "3"
+      },
+      {
+        "name": "Pantheon",
+        "winRate": 49.0,
+        "tier": "3"
+      },
+      {
+        "name": "Shaco",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "LeBlanc",
+        "winRate": 49.0,
+        "tier": "4"
+      },
+      {
+        "name": "Camille",
+        "winRate": 48.0,
+        "tier": "4"
+      },
+      {
+        "name": "Skarner",
+        "winRate": 47.0,
+        "tier": "5"
+      }
+    ]
+  },
+  "patch": "",
+  "last_updated": "2026-05-21T11:13:52.813461+00:00"
+}

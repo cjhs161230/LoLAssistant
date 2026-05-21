@@ -1,0 +1,1977 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Annie",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "2": {
+    "id": 2,
+    "name": "Olaf",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "3": {
+    "id": 3,
+    "name": "Galio",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "4": {
+    "id": 4,
+    "name": "TwistedFate",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "5": {
+    "id": 5,
+    "name": "XinZhao",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "6": {
+    "id": 6,
+    "name": "Urgot",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "7": {
+    "id": 7,
+    "name": "Leblanc",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "8": {
+    "id": 8,
+    "name": "Vladimir",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "9": {
+    "id": 9,
+    "name": "FiddleSticks",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "10": {
+    "id": 10,
+    "name": "Kayle",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "11": {
+    "id": 11,
+    "name": "MasterYi",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "12": {
+    "id": 12,
+    "name": "Alistar",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "13": {
+    "id": 13,
+    "name": "Ryze",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "14": {
+    "id": 14,
+    "name": "Sion",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "15": {
+    "id": 15,
+    "name": "Sivir",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "16": {
+    "id": 16,
+    "name": "Soraka",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "17": {
+    "id": 17,
+    "name": "Teemo",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "18": {
+    "id": 18,
+    "name": "Tristana",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "19": {
+    "id": 19,
+    "name": "Warwick",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "20": {
+    "id": 20,
+    "name": "Nunu",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "21": {
+    "id": 21,
+    "name": "MissFortune",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "22": {
+    "id": 22,
+    "name": "Ashe",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY"
+    ],
+    "hasHardCC": false
+  },
+  "23": {
+    "id": 23,
+    "name": "Tryndamere",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "24": {
+    "id": 24,
+    "name": "Jax",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "25": {
+    "id": 25,
+    "name": "Morgana",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "26": {
+    "id": 26,
+    "name": "Zilean",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "27": {
+    "id": 27,
+    "name": "Singed",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "28": {
+    "id": 28,
+    "name": "Evelynn",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "29": {
+    "id": 29,
+    "name": "Twitch",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "30": {
+    "id": 30,
+    "name": "Karthus",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "31": {
+    "id": 31,
+    "name": "Chogath",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "32": {
+    "id": 32,
+    "name": "Amumu",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "33": {
+    "id": 33,
+    "name": "Rammus",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "34": {
+    "id": 34,
+    "name": "Anivia",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "35": {
+    "id": 35,
+    "name": "Shaco",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "36": {
+    "id": 36,
+    "name": "DrMundo",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "37": {
+    "id": 37,
+    "name": "Sona",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "38": {
+    "id": 38,
+    "name": "Kassadin",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "39": {
+    "id": 39,
+    "name": "Irelia",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "40": {
+    "id": 40,
+    "name": "Janna",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "41": {
+    "id": 41,
+    "name": "Gangplank",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "42": {
+    "id": 42,
+    "name": "Corki",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "43": {
+    "id": 43,
+    "name": "Karma",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "44": {
+    "id": 44,
+    "name": "Taric",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "45": {
+    "id": 45,
+    "name": "Veigar",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "48": {
+    "id": 48,
+    "name": "Trundle",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "50": {
+    "id": 50,
+    "name": "Swain",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "51": {
+    "id": 51,
+    "name": "Caitlyn",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "53": {
+    "id": 53,
+    "name": "Blitzcrank",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "54": {
+    "id": 54,
+    "name": "Malphite",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "55": {
+    "id": 55,
+    "name": "Katarina",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "56": {
+    "id": 56,
+    "name": "Nocturne",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "57": {
+    "id": 57,
+    "name": "Maokai",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "58": {
+    "id": 58,
+    "name": "Renekton",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "59": {
+    "id": 59,
+    "name": "JarvanIV",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "60": {
+    "id": 60,
+    "name": "Elise",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "61": {
+    "id": 61,
+    "name": "Orianna",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "62": {
+    "id": 62,
+    "name": "MonkeyKing",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "63": {
+    "id": 63,
+    "name": "Brand",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "64": {
+    "id": 64,
+    "name": "LeeSin",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "67": {
+    "id": 67,
+    "name": "Vayne",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "68": {
+    "id": 68,
+    "name": "Rumble",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "69": {
+    "id": 69,
+    "name": "Cassiopeia",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "72": {
+    "id": 72,
+    "name": "Skarner",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "74": {
+    "id": 74,
+    "name": "Heimerdinger",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "75": {
+    "id": 75,
+    "name": "Nasus",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "76": {
+    "id": 76,
+    "name": "Nidalee",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "77": {
+    "id": 77,
+    "name": "Udyr",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "78": {
+    "id": 78,
+    "name": "Poppy",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "79": {
+    "id": 79,
+    "name": "Gragas",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "80": {
+    "id": 80,
+    "name": "Pantheon",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "81": {
+    "id": 81,
+    "name": "Ezreal",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "82": {
+    "id": 82,
+    "name": "Mordekaiser",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "83": {
+    "id": 83,
+    "name": "Yorick",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "84": {
+    "id": 84,
+    "name": "Akali",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "85": {
+    "id": 85,
+    "name": "Kennen",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "86": {
+    "id": 86,
+    "name": "Garen",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "89": {
+    "id": 89,
+    "name": "Leona",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "90": {
+    "id": 90,
+    "name": "Malzahar",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "91": {
+    "id": 91,
+    "name": "Talon",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "92": {
+    "id": 92,
+    "name": "Riven",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "96": {
+    "id": 96,
+    "name": "KogMaw",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "98": {
+    "id": 98,
+    "name": "Shen",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "99": {
+    "id": 99,
+    "name": "Lux",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "101": {
+    "id": 101,
+    "name": "Xerath",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "102": {
+    "id": 102,
+    "name": "Shyvana",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "103": {
+    "id": 103,
+    "name": "Ahri",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "104": {
+    "id": 104,
+    "name": "Graves",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "105": {
+    "id": 105,
+    "name": "Fizz",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "106": {
+    "id": 106,
+    "name": "Volibear",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "107": {
+    "id": 107,
+    "name": "Rengar",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "110": {
+    "id": 110,
+    "name": "Varus",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "111": {
+    "id": 111,
+    "name": "Nautilus",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "112": {
+    "id": 112,
+    "name": "Viktor",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "113": {
+    "id": 113,
+    "name": "Sejuani",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "114": {
+    "id": 114,
+    "name": "Fiora",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "115": {
+    "id": 115,
+    "name": "Ziggs",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "117": {
+    "id": 117,
+    "name": "Lulu",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "119": {
+    "id": 119,
+    "name": "Draven",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "120": {
+    "id": 120,
+    "name": "Hecarim",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "121": {
+    "id": 121,
+    "name": "Khazix",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "122": {
+    "id": 122,
+    "name": "Darius",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "126": {
+    "id": 126,
+    "name": "Jayce",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "BOTTOM",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "127": {
+    "id": 127,
+    "name": "Lissandra",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "131": {
+    "id": 131,
+    "name": "Diana",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "133": {
+    "id": 133,
+    "name": "Quinn",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "134": {
+    "id": 134,
+    "name": "Syndra",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "136": {
+    "id": 136,
+    "name": "AurelionSol",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "141": {
+    "id": 141,
+    "name": "Kayn",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "142": {
+    "id": 142,
+    "name": "Zoe",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "143": {
+    "id": 143,
+    "name": "Zyra",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "145": {
+    "id": 145,
+    "name": "Kaisa",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "147": {
+    "id": 147,
+    "name": "Seraphine",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "150": {
+    "id": 150,
+    "name": "Gnar",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "154": {
+    "id": 154,
+    "name": "Zac",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "157": {
+    "id": 157,
+    "name": "Yasuo",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "161": {
+    "id": 161,
+    "name": "Velkoz",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "163": {
+    "id": 163,
+    "name": "Taliyah",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "164": {
+    "id": 164,
+    "name": "Camille",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "166": {
+    "id": 166,
+    "name": "Akshan",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "200": {
+    "id": 200,
+    "name": "Belveth",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "201": {
+    "id": 201,
+    "name": "Braum",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "202": {
+    "id": 202,
+    "name": "Jhin",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "203": {
+    "id": 203,
+    "name": "Kindred",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "221": {
+    "id": 221,
+    "name": "Zeri",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "222": {
+    "id": 222,
+    "name": "Jinx",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "223": {
+    "id": 223,
+    "name": "TahmKench",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "233": {
+    "id": 233,
+    "name": "Briar",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "234": {
+    "id": 234,
+    "name": "Viego",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "235": {
+    "id": 235,
+    "name": "Senna",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "236": {
+    "id": 236,
+    "name": "Lucian",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "238": {
+    "id": 238,
+    "name": "Zed",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "240": {
+    "id": 240,
+    "name": "Kled",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "245": {
+    "id": 245,
+    "name": "Ekko",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "246": {
+    "id": 246,
+    "name": "Qiyana",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "254": {
+    "id": 254,
+    "name": "Vi",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "266": {
+    "id": 266,
+    "name": "Aatrox",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "267": {
+    "id": 267,
+    "name": "Nami",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "268": {
+    "id": 268,
+    "name": "Azir",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "350": {
+    "id": 350,
+    "name": "Yuumi",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "360": {
+    "id": 360,
+    "name": "Samira",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "412": {
+    "id": 412,
+    "name": "Thresh",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "420": {
+    "id": 420,
+    "name": "Illaoi",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "421": {
+    "id": 421,
+    "name": "RekSai",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "427": {
+    "id": 427,
+    "name": "Ivern",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "429": {
+    "id": 429,
+    "name": "Kalista",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "432": {
+    "id": 432,
+    "name": "Bard",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "497": {
+    "id": 497,
+    "name": "Rakan",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY"
+    ],
+    "hasHardCC": false
+  },
+  "498": {
+    "id": 498,
+    "name": "Xayah",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "516": {
+    "id": 516,
+    "name": "Ornn",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "517": {
+    "id": 517,
+    "name": "Sylas",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "518": {
+    "id": 518,
+    "name": "Neeko",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "523": {
+    "id": 523,
+    "name": "Aphelios",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "526": {
+    "id": 526,
+    "name": "Rell",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP"
+    ],
+    "hasHardCC": false
+  },
+  "555": {
+    "id": 555,
+    "name": "Pyke",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "711": {
+    "id": 711,
+    "name": "Vex",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "777": {
+    "id": 777,
+    "name": "Yone",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "799": {
+    "id": 799,
+    "name": "Ambessa",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "800": {
+    "id": 800,
+    "name": "Mel",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "804": {
+    "id": 804,
+    "name": "Yunara",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM"
+    ],
+    "hasHardCC": false
+  },
+  "875": {
+    "id": 875,
+    "name": "Sett",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "876": {
+    "id": 876,
+    "name": "Lillia",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "887": {
+    "id": 887,
+    "name": "Gwen",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "888": {
+    "id": 888,
+    "name": "Renata",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "893": {
+    "id": 893,
+    "name": "Aurora",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "895": {
+    "id": 895,
+    "name": "Nilah",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "897": {
+    "id": 897,
+    "name": "KSante",
+    "damageType": "MIXED",
+    "role": "TANK",
+    "positions": [
+      "UTILITY",
+      "TOP",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "901": {
+    "id": 901,
+    "name": "Smolder",
+    "damageType": "AD",
+    "role": "MARKSMAN",
+    "positions": [
+      "BOTTOM",
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "902": {
+    "id": 902,
+    "name": "Milio",
+    "damageType": "AP",
+    "role": "UTILITY",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "904": {
+    "id": 904,
+    "name": "Zaahen",
+    "damageType": "AD",
+    "role": "FIGHTER",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  },
+  "910": {
+    "id": 910,
+    "name": "Hwei",
+    "damageType": "AP",
+    "role": "MAGE",
+    "positions": [
+      "UTILITY",
+      "MID"
+    ],
+    "hasHardCC": false
+  },
+  "950": {
+    "id": 950,
+    "name": "Naafiri",
+    "damageType": "AD",
+    "role": "ASSASSIN",
+    "positions": [
+      "TOP",
+      "MID",
+      "JUNGLE"
+    ],
+    "hasHardCC": false
+  }
+}
